@@ -1,0 +1,16 @@
+# MO2 churn
+/webcache/
+/logs/
+/usvfs*.log
+/overwrite/
+/nxmhandlers.ini
+/ModOrganizer.ini.backup
+
+# Archives & caches
+/downloads/
+/cache/
+/profiles/*/saves/
+
+# Optional: ignore full mods but keep each manifest.json for traceability
+mods/**
+!mods/**/manifest.json
