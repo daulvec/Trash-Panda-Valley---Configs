@@ -1,0 +1,19 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "Mods": true,
+    "Z - Dev Files": false,   // visible but ignored by git
+    "Trash Panda Valley/downloads": true,
+    "Trash Panda Valley/logs": true,
+    "Trash Panda Valley/webcache": true,
+    "Trash Panda Valley/overwrite": true
+  },
+  "files.watcherExclude": {
+    "**/Mods/**": true,
+    "**/Trash Panda Valley/downloads/**": true,
+    "**/Trash Panda Valley/webcache/**": true,
+    "**/Trash Panda Valley/logs/**": true,
+    "**/Trash Panda Valley/overwrite/**": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}

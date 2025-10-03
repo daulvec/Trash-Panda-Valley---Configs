@@ -1,0 +1,34 @@
+{
+  "ModlistIsNSFW": false,
+  "Source": "G:\\Trash Panda Valley\\Trash Panda Valley",
+  "Downloads": "G:\\Trash Panda Valley\\Mods",
+  "Game": "StardewValley",
+  "OutputFile": "G:\\Trash Panda Valley\\Z - Dev Files\\Wabbajack Files Backups\\Trash Panda Valley-0.0.3.wabbajack",
+  "ModListImage": "G:\\Trash Panda Valley\\Z - Dev Files\\Images\\00-featured-vanilla-gothic-abigail-stardew-valley-mod.webp",
+  "UseGamePaths": false,
+  "UseTextureRecompression": false,
+  "OtherGames": [],
+  "MaxVerificationTime": "00:01:00",
+  "ModListName": "Trash Panda Valley",
+  "ModListAuthor": "iunPause",
+  "ModListDescription": "Trash Panda Valley: where your crops are dead, your eyeliner\u2019s black, and the raccoons run the town.",
+  "ModListReadme": "",
+  "ModListWebsite": "",
+  "ModListCommunity": "",
+  "ModlistVersion": "0.0.1.0",
+  "PublishUpdate": false,
+  "MachineUrl": "",
+  "Profile": "testing Xtardew Valley",
+  "AdditionalProfiles": [],
+  "NoMatchInclude": [
+    "mods\\SMAPI",
+    "mods\\SMAPI - Console"
+  ],
+  "Include": [],
+  "Ignore": [
+    "plugins\\data\\RootBuilder\\GSteamLibrarysteamappscommonStardew_Valley\\1_6_15_24356\\Backup"
+  ],
+  "AlwaysEnabled": [],
+  "Version": "0.0.3",
+  "Description": null
+}

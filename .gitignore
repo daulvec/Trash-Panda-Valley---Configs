@@ -1,16 +1,36 @@
-# --- Top-level (your three folders) ---
-/Mods/                     # your downloads & meta files
-/Z - Dev Files/            # your docs/art/backups/etc.
+# --- Top level ---
+/Mods/
+/Z - Dev Files/
 
-# --- MO2 internals inside the MO2 install folder ---
+# --- Big MO2 folders you don’t want in git ---
+/Trash Panda Valley/mods/
 /Trash Panda Valley/downloads/
 /Trash Panda Valley/logs/
 /Trash Panda Valley/webcache/
 /Trash Panda Valley/overwrite/
-/Trash Panda Valley/usvfs*.log
-/Trash Panda Valley/nxmhandlers.ini
-/Trash Panda Valley/ModOrganizer.ini.backup
+/Trash Panda Valley/crashDumps/
+/Trash Panda Valley/loot/
+
+# --- MO2 program support files (can be redownloaded) ---
+/Trash Panda Valley/dlls/
+/Trash Panda Valley/explorer++/
+/Trash Panda Valley/licenses/
+/Trash Panda Valley/platforms/
+/Trash Panda Valley/plugins/
+/Trash Panda Valley/qml/
+/Trash Panda Valley/resources/
+/Trash Panda Valley/styles/
+/Trash Panda Valley/stylesheets/
+/Trash Panda Valley/translations/
+/Trash Panda Valley/tutorials/
+
+# --- Saves (optional) ---
 /Trash Panda Valley/profiles/*/saves/
-# Ignore MO2-installed mods (keeps repo lean)
-# Remove this line if you later decide to fully track mods.
-/Trash Panda Valley/mods/
+
+# --- Backups ---
+/Trash Panda Valley/*.backup
+
+# --- Ignore system files ---
+Thumbs.db
+desktop.ini
+.DS_Store
