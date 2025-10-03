@@ -1,0 +1,16 @@
+# --- Top-level (your three folders) ---
+/Mods/                     # your downloads & meta files
+/Z - Dev Files/            # your docs/art/backups/etc.
+
+# --- MO2 internals inside the MO2 install folder ---
+/Trash Panda Valley/downloads/
+/Trash Panda Valley/logs/
+/Trash Panda Valley/webcache/
+/Trash Panda Valley/overwrite/
+/Trash Panda Valley/usvfs*.log
+/Trash Panda Valley/nxmhandlers.ini
+/Trash Panda Valley/ModOrganizer.ini.backup
+/Trash Panda Valley/profiles/*/saves/
+# Ignore MO2-installed mods (keeps repo lean)
+# Remove this line if you later decide to fully track mods.
+/Trash Panda Valley/mods/
