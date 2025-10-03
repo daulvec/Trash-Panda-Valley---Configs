@@ -2,8 +2,8 @@
 /Mods/
 /Z - Dev Files/
 !/Z - Dev Files/Readmes and Text Docs/CHANGELOG_TEMPLATE.md
-.vscode/
-!.vscode/settings.json
+/.vscode/
+!/.vscode/settings.json
 
 # --- Big MO2 folders you don’t want in git ---
 /Trash Panda Valley/mods/
