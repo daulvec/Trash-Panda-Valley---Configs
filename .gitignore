@@ -1,6 +1,7 @@
 # --- Top level ---
 /Mods/
 /Z - Dev Files/
+!/Z - Dev Files/Readmes and Text Docs/CHANGELOG_TEMPLATE.md
 
 # --- Big MO2 folders you don’t want in git ---
 /Trash Panda Valley/mods/
