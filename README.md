@@ -3,26 +3,36 @@
 This repository contains the **Mod Organizer 2 configuration files** for the *Trash Panda Valley* Stardew Valley modlist.  
 It does **not** include the mods themselves or developer resources — only the configs needed to reproduce categories, separators, and load order.
 
----
-
-## 📂 Repository Contents
-- `Trash Panda Valley/modorganizer.ini` – Global MO2 settings (paths, theme, last profile used).
-- `Trash Panda Valley/categories.dat` – Custom separators and categories for organizing mods.
-- `Trash Panda Valley/profiles/*/modlist.txt` – Left pane load order + enabled/disabled state.
-- `Trash Panda Valley/profiles/*/ini tweaks/` – Any per-profile ini tweaks.
+> 🗂 Repo root is the folder that contains `Trash Panda Valley/` (your MO2 portable install).  
+> We intentionally ignore binaries, downloads, logs, and actual mods to keep the repo lean.
 
 ---
 
-## 🚫 Ignored Files
-To keep the repo lightweight, the following are not tracked:
-- `mods/` – Installed mods (can be redownloaded).
-- `downloads/` – Archive downloads.
-- `logs/`, `webcache/`, `overwrite/`, `crashDumps/`, `loot/` – Runtime / cache files.
-- `Z - Dev Files/` – Readme drafts, art, backups, Wabbajack files, etc.
+## Tracked Files
+
+- `Trash Panda Valley/modorganizer.ini` – Global MO2 settings (paths, theme, last profile used)
+- `Trash Panda Valley/categories.dat` – Custom separators/categories
+- `Trash Panda Valley/profiles/*/modlist.txt` – **Left-pane order + enabled/disabled** state
+- `Trash Panda Valley/profiles/*/ini tweaks/` – (optional) per-profile INI tweaks
+- `Trash Panda Valley/(Profile_Name).compiler_settings` - Wabbajack Compiler Settings for the List.
+
+> Everything else (mods, downloads, logs, MO2 executables/DLLs) is ignored on purpose.
 
 ---
 
-## 🔧 How to Use
-1. Clone this repository into your working directory.
+## Ignored (examples)
+
+- `Trash Panda Valley/mods/`, `Trash Panda Valley/downloads/`, `Trash Panda Valley/overwrite/`
+- `Trash Panda Valley/logs/`, `Trash Panda Valley/webcache/`, `Trash Panda Valley/crashDumps/`, `Trash Panda Valley/loot/`
+- MO2 binaries & support files (e.g., `ModOrganizer.exe`, `QtWebEngineProcess.exe`, `uibase.dll`, `usvfs_*.dll`, etc.)
+- `Z - Dev Files/` (docs, art, backups, Wabbajack assets)
+
+See `.gitignore` for the full list.
+
+---
+
+## Setup (Clone/Restore)
+
+1. **Clone** the configs:
    ```bash
    git clone https://github.com/daulvec/Trash-Panda-Valley---Configs.git
